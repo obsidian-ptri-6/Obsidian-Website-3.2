@@ -98,7 +98,7 @@ const users = [
     lastName: 'Alfaro',
     image:
       'https://res.cloudinary.com/dyigtncwy/image/upload/v1618454676/Damon_j1ehdh.jpg',
-    info: 'As a software engineer Damon enjoys databases and experimenting with emerging back-end technologies. He spends his free time backpacking, running, and traveling in his converted school bus RV.',
+    info: 'As a software engineer, Damon enjoys databases and experimenting with emerging back-end technologies. He spends his free time backpacking, running, and traveling in his converted school bus RV.',
     linkedin: 'https://www.linkedin.com/in/damon-alfaro-28530a74/',
     github: 'https://github.com/djdalfaro',
   },
@@ -180,7 +180,7 @@ const users = [
     image:
       'https://res.cloudinary.com/dkxftbzuu/image/upload/v1600479739/Obsidian/WhatsApp_Image_2020-09-18_at_8.38.09_PM_pgshgj.jpg',
 
-    info: 'Alonso Garza is a full-stack software engineer from Austin, Texas. Alonso specializes in React, Node.js, Express, and is passionate about solving complex problems and working in teams. Outside of coding, he loves to travel around Latin America and scuba dive!',
+    info: 'Alonso is a full-stack software engineer from Austin, Texas. Alonso specializes in React, Node.js, Express, and is passionate about solving complex problems and working in teams. Outside of coding, he loves to travel around Latin America and scuba dive!',
     linkedin: 'https://www.linkedin.com/in/e-alonso-garza/',
     github: 'https://github.com/Alonsog66',
   },
@@ -210,6 +210,51 @@ const users = [
     info: 'Burak is a software engineer focused on developing full stack applications. Curious and constantly finding ways to use new ideas to solve problems and provide delight. For fun, he enjoys outdoor activities, traveling, and exploring new cuisines.',
     linkedin: 'https://www.linkedin.com/in/burakcaliskan/',
     github: 'https://github.com/CaliskanBurak',
+  },
+  {
+    firstName: 'Sigele',
+    lastName: 'Nickerson-Adams',
+    image:
+    'https://media-exp1.licdn.com/dms/image/C4E03AQGz-Rr2Popsfg/profile-displayphoto-shrink_400_400/0/1583992554671?e=1661385600&v=beta&t=iSBRg2Xvaa9v_V9Q-I2MwqBiS3qpCKsqGsYwPmn3Lw0',
+    info: '',
+    linkedin: 'https://www.linkedin.com/in/sigelenickersonadams/',
+    github: '',
+  },
+  {
+    firstName: 'David',
+    lastName: 'Palmer',
+    image:
+    'https://media-exp1.licdn.com/dms/image/C4D03AQFBKTtBShP-GQ/profile-displayphoto-shrink_400_400/0/1547607279919?e=1661385600&v=beta&t=M6XBM_djLZK6K9OLPgDLsXaxHFNlgtRFDseSmw_3fGs',
+    info: '',
+    linkedin: 'https://www.linkedin.com/in/dwp78/',
+    github: 'https://github.com/dwppalmer95',
+  },
+  {
+    firstName: 'Yuki',
+    lastName: 'Naka',
+    image:
+    'https://media-exp1.licdn.com/dms/image/C5603AQGEd01lZamDQg/profile-displayphoto-shrink_400_400/0/1564934222161?e=1661385600&v=beta&t=3Af27uvvfzDi9VOrCSNkLGNA5c1M2bo4hOWV8-wKk0c',
+    info: '',
+    linkedin: 'https://www.linkedin.com/in/yukinaka/',
+    github: '',
+  },
+  {
+    firstName: 'Nathan',
+    lastName: 'Crawford',
+    image:
+    'https://media-exp1.licdn.com/dms/image/C4D03AQF8kmKh1Qom0g/profile-displayphoto-shrink_400_400/0/1617305254527?e=1661385600&v=beta&t=9hKSy2WHwA-hkfKKnzIuH9n4xqhJaI87TnDXqVpGzpU',
+    info: '',
+    linkedin: 'https://www.linkedin.com/in/nathan-crawford-6894761ab/',
+    github: '',
+  },
+  {
+    firstName: 'Robert',
+    lastName: 'Bedenbaugh',
+    image:
+    'https://media-exp1.licdn.com/dms/image/C4D03AQHiKjH1zwrSzw/profile-displayphoto-shrink_400_400/0/1655170968863?e=1661385600&v=beta&t=SKKwYlkdvTELZdLhiMwRmhjSEb7-bbJw36Mdqa3JthM',
+    info: 'Robert is a software engineer passionate about UX/UI, the joyful art of CSS, & . When not coding, you may find him gardening, eating sushi, or rocking to RHCP.',
+    linkedin: 'https://www.linkedin.com/in/robertbedenbaugh/',
+    github: 'https://github.com/rhbedenbaugh',
   },
 ];
 
