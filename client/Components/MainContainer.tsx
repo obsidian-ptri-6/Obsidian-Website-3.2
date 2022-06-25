@@ -3,6 +3,7 @@ import Main from './Main.tsx';
 import About from './About.tsx';
 import Demo from './Demo.tsx';
 import Docs from './Docs.tsx';
+import DevTool from './DevTool.tsx';
 
 declare global {
   namespace JSX {
@@ -20,7 +21,7 @@ const MainContainer = (props: any) => {
   if (page === 'about') curPage = <About page={props.page} />;
   if (page === 'demo') curPage = <Demo page={props.page} />;
   if (page === 'docs') curPage = <Docs page={props.page} />;
-
+  if (page === 'devtool') curPage = <DevTool page={props.page} />;
   return <>{curPage}</>;
 };
 

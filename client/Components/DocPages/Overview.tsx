@@ -62,7 +62,7 @@ const Overview = (props: any) => {
       <p>We've split our documentation into distinct sections.</p>
       <ul>
         <li>
-          <strong>Quick Start</strong> Provies some example repositorys and a
+          <strong>Quick Start</strong> Provides some example repositories and a
           docker-compose file if you want to spin up a server with Obsidian
           implemented in and start exploring. There is also a quick guide to
           adding Obsidans caching functionality to an exsisting graphql server.

@@ -233,7 +233,7 @@ const users = [
     firstName: 'Yuki',
     lastName: 'Naka',
     image:
-    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176613/1656085073699_gkjsrh.jpg',
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/c_thumb,w_200,g_face/v1656176613/1656085073699_gkjsrh.jpg',
   
     info: '',
     linkedin: 'https://www.linkedin.com/in/yukinaka/',
@@ -252,7 +252,7 @@ const users = [
     firstName: 'Robert',
     lastName: 'Bedenbaugh',
     image:
-    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176325/RBB_mbvzsz.jpg',
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/c_thumb,w_200,g_face/v1656191588/Resized_20210408_184749_cbm7lv.jpg',
     info: 'Robert is a software engineer passionate about UX/UI, the joyful art of CSS, & its frameworks & libraries. When not coding, you may find him gardening, eating sushi, or rocking to RHCP.',
     linkedin: 'https://www.linkedin.com/in/robertbedenbaugh/',
     github: 'https://github.com/rhbedenbaugh',
