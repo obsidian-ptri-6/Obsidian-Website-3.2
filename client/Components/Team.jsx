@@ -215,7 +215,7 @@ const users = [
     firstName: 'Sigele',
     lastName: 'Nickerson-Adams',
     image:
-    'https://media-exp1.licdn.com/dms/image/C4E03AQGz-Rr2Popsfg/profile-displayphoto-shrink_400_400/0/1583992554671?e=1661385600&v=beta&t=iSBRg2Xvaa9v_V9Q-I2MwqBiS3qpCKsqGsYwPmn3Lw0',
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176543/1583992554671_oz2lpz.jpg',
     info: '',
     linkedin: 'https://www.linkedin.com/in/sigelenickersonadams/',
     github: '',
@@ -224,7 +224,7 @@ const users = [
     firstName: 'David',
     lastName: 'Palmer',
     image:
-    'https://media-exp1.licdn.com/dms/image/C4D03AQFBKTtBShP-GQ/profile-displayphoto-shrink_400_400/0/1547607279919?e=1661385600&v=beta&t=M6XBM_djLZK6K9OLPgDLsXaxHFNlgtRFDseSmw_3fGs',
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176568/1547607279919_e001bx.jpg',
     info: '',
     linkedin: 'https://www.linkedin.com/in/dwp78/',
     github: 'https://github.com/dwppalmer95',
@@ -233,7 +233,8 @@ const users = [
     firstName: 'Yuki',
     lastName: 'Naka',
     image:
-    'https://media-exp1.licdn.com/dms/image/C5603AQGEd01lZamDQg/profile-displayphoto-shrink_400_400/0/1564934222161?e=1661385600&v=beta&t=3Af27uvvfzDi9VOrCSNkLGNA5c1M2bo4hOWV8-wKk0c',
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176613/1656085073699_gkjsrh.jpg',
+  
     info: '',
     linkedin: 'https://www.linkedin.com/in/yukinaka/',
     github: '',
@@ -242,7 +243,7 @@ const users = [
     firstName: 'Nathan',
     lastName: 'Crawford',
     image:
-    'https://media-exp1.licdn.com/dms/image/C4D03AQF8kmKh1Qom0g/profile-displayphoto-shrink_400_400/0/1617305254527?e=1661385600&v=beta&t=9hKSy2WHwA-hkfKKnzIuH9n4xqhJaI87TnDXqVpGzpU',
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176587/1617305254527_u0euyd.jpg',
     info: '',
     linkedin: 'https://www.linkedin.com/in/nathan-crawford-6894761ab/',
     github: '',
@@ -251,8 +252,8 @@ const users = [
     firstName: 'Robert',
     lastName: 'Bedenbaugh',
     image:
-    'https://media-exp1.licdn.com/dms/image/C4D03AQHiKjH1zwrSzw/profile-displayphoto-shrink_400_400/0/1655170968863?e=1661385600&v=beta&t=SKKwYlkdvTELZdLhiMwRmhjSEb7-bbJw36Mdqa3JthM',
-    info: 'Robert is a software engineer passionate about UX/UI, the joyful art of CSS, & . When not coding, you may find him gardening, eating sushi, or rocking to RHCP.',
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176325/RBB_mbvzsz.jpg',
+    info: 'Robert is a software engineer passionate about UX/UI, the joyful art of CSS, & its frameworks & libraries. When not coding, you may find him gardening, eating sushi, or rocking to RHCP.',
     linkedin: 'https://www.linkedin.com/in/robertbedenbaugh/',
     github: 'https://github.com/rhbedenbaugh',
   },

@@ -5,12 +5,12 @@ import { React, CodeBlock, dracula } from "../../../../deps.ts";
 const Polling = (props: any) => {
   return (
     <div className='docContainer'>
-      <h1>Polling - Obsidian Wraper</h1>
+      <h1>Polling - Obsidian Wrapper</h1>
       <p>
         Some applications require regular streams of GraphQL queries sent via
         HTTP requests. If you find yourself in this position,
-        <code className='obsidianInline'>obsidian</code> can help. The
-        <code className='obsidianInline'> query</code> method accepts an
+        <code className='obsidianInline'> obsidian</code> can help. The
+        <code className='obsidianInline'>query</code> method accepts an
         optional 'pollInterval' property in its options parameter, which
         provides near-real-time synchronization with your server by causing a
         query to execute periodically and will automatically update the cache

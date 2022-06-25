@@ -32,7 +32,7 @@ declare global {
 }
 
 const Docs = (props: any) => {
-  const [docsPage, setDocsPage] = (React as any).useState("QuickStart");
+  const [docsPage, setDocsPage] = (React as any).useState("Overview");
 
   let curDocsPage;
   if (docsPage === "QuickStart") curDocsPage = <QuickStart />;

@@ -24,7 +24,7 @@ const BasicsErrors = (props: any) => {
       <p>
         Check to see if your query and/or mutation is being sent with an id
         field, as not providing one prevents normalization of the response
-        object
+        object.
       </p>
       <h3>Your app doesn't work after wrapping it with Obsidian</h3>
       <p>
@@ -37,7 +37,7 @@ const BasicsErrors = (props: any) => {
         methods, and ObsidianWrapper should be the first child of App. Check out
         the chapter on server-side rendering to see an example.
       </p>
-      <h4>Recap & Next Up</h4>
+      <h3>Recap & Next Up</h3>
       <p>
         This section has walked through a simple implementation of{' '}
         <code className="obsidianInline">obsidian</code> with ObsidianRouter and

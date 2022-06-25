@@ -8,8 +8,8 @@ const Strategies = (props: any) => {
         In this section, we cover the details of caching in{' '}
         <code className="obsidianInline">obsidian</code>. In this chapter, we'll
         learn more about the different caching strategies{' '}
-        <code className="obsidianInline">obsidian</code> makes available to us,
-        and their pros and cons.
+        <code className="obsidianInline">obsidian</code> makes available to us
+        as well as their pros and cons.
       </p>
       <h2>Caching in Obsidian</h2>
       <p>
@@ -30,7 +30,7 @@ const Strategies = (props: any) => {
       </p>
       <h3>Cacheless</h3>
       <p>
-        At first blush the cacheless caching strategy sounds like an oxymoron-
+        At first blush, the cacheless caching strategy sounds like an oxymoron-
         and it is. However, we feel it is important to denote cacheless as it's
         own caching strategy, as{' '}
         <code className="obsidianInline">obsidian</code> does not demand a

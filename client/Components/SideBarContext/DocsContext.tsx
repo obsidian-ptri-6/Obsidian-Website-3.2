@@ -10,16 +10,6 @@ const DocsContext = (props: any) => {
       <div className='list-group pink-a-tags'>
         <button
           className={`list-group-item list-group-item-action ${
-            props.docsPage === "QuickStart" ? "active" : ""
-          }`}
-          onClick={() => {
-            setDocsPage("QuickStart");
-          }}
-        >
-          Quick Start
-        </button>
-        <button
-          className={`list-group-item list-group-item-action ${
             props.docsPage === "Overview" ? "active" : ""
           }`}
           onClick={() => {
@@ -27,6 +17,16 @@ const DocsContext = (props: any) => {
           }}
         >
           Overview
+        </button>
+        <button
+          className={`list-group-item list-group-item-action ${
+            props.docsPage === "QuickStart" ? "active" : ""
+          }`}
+          onClick={() => {
+            setDocsPage("QuickStart");
+          }}
+        >
+          Quick Start
         </button>
 
         <button
@@ -37,10 +37,10 @@ const DocsContext = (props: any) => {
             setDocsPage("GettingStarted");
           }}
         >
-          Obsidian Router
+          ObsidianRouter
         </button>
         <div className='list-group-item'>
-          <h6>Obsidian Wrapper</h6>
+          <h6>ObsidianWrapper</h6>
           <div className='list-group'>
             <button
               className={`list-group-item list-group-item-action ${
