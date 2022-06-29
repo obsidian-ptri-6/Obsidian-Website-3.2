@@ -246,7 +246,7 @@ const users = [
     'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176587/1617305254527_u0euyd.jpg',
     info: '',
     linkedin: 'https://www.linkedin.com/in/nathan-crawford-6894761ab/',
-    github: '',
+    github: 'https://github.com/crawfish39',
   },
   {
     firstName: 'Robert',

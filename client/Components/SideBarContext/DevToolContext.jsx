@@ -1,30 +1,11 @@
-import { React } from '../../deps.ts';
-import Team from './Team.jsx';
-import SideBar from './SideBar.tsx';
+import { React } from '../../../deps.ts';
 
-declare global {
-  namespace JSX {
-    interface IntrinsicElements {
-      div: any;
-    }
-  }
-}
-
-const About = (props: any) => {
+const DevToolContext = (props) => {
   return (
-    <>
-      <div className="mainContainer">
-
-          
-          <div className="devGrid">     
-          <Team/>
-          </div>
-          </div>
-  
-
-      <SideBar page={props.page}  />
-    </>
+    <div id='docsTOC'>
+    </div>
   );
 };
 
-export default About;
+export default DevToolContext;
+

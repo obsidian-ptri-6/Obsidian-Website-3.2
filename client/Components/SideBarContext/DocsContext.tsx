@@ -137,12 +137,6 @@ const DocsContext = (props: any) => {
             >
               Server
             </button>
-            {/*<button
-              className={`list-group-item list-group-item-action disabled ${props.docsPage === 'CachingErrors' ? "active" : ""}`}
-              onClick={() => {
-                setDocsPage('CachingErrors');
-              }}
-            >Errors</button>*/}
           </div>
         </div>
       </div>
