@@ -16,7 +16,6 @@ const Main = (props: any) => {
     <>
       <div className='mainContainerLogo'>
         <div className='homePage'>
-          {/* <img src="static/logo.svg" alt="obsidianLogo" className="animate__animated animate__fadeInDown" id="logo"/> */}
           <ObsidianLogo />
         </div>
       </div>

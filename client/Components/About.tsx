@@ -10,23 +10,17 @@ declare global {
   }
 }
 
-
-
-
-
 const About = (props: any) => {
   return (
     <>
-      <div className="mainContainer">
-
-          
-          <div className="devGrid">     
-          <Team/>
+      <div className='mainContainer'>
+        <div className='docContainer'>
+          <div className="devGrid">
+            <Team />
           </div>
-          </div>
-  
-
-      <SideBar page={props.page}  />
+        </div>
+      </div>
+      <SideBar page={props.page} />
     </>
   );
 };
