@@ -3,8 +3,6 @@ import DocsContext from './SideBarContext/DocsContext.tsx';
 import MainContext from './SideBarContext/MainContext.tsx';
 import AboutContext from './SideBarContext/AboutContext.jsx';
 import DemoContext from './SideBarContext/DemoContext.tsx';
-import DevToolContext from './SideBarContext/DevToolContext.jsx';
-import ContactContext from './SideBarContext/ContactContext.jsx';
 
 declare global {
   namespace JSX {
@@ -28,9 +26,9 @@ const NavBar = (props: any) => {
   if (page === 'home') curContext = <MainContext />;
   if (page === 'about') curContext = <AboutContext/> ;
   if (page === 'demo') curContext = <DemoContext />;
-  if (page === 'docs') curContext = <DocsContext docsPage={docsPage} setDocsPage={setDocsPage} />;
-  if (page === 'devtool') curContext = <DevToolContext />;
-  if (page === 'contact') curContext = <ContactContext />;
+  if (page === 'docs')
+    curContext = <DocsContext docsPage={docsPage} setDocsPage={setDocsPage} />;
+  
   const [open, setOpen] = (React as any).useState(null);
 
   const createSidebarStyle = () => {
@@ -40,7 +38,7 @@ const NavBar = (props: any) => {
     }
     const homeAbout = { backgroundColor: 'rgba(0,0,0,0)' };
 
-    return page === 'home'|| page === 'about' || page === 'devtool' || page==='contact' ? Object.assign(styleObj, homeAbout) : styleObj;
+    return page === 'home'|| page ==='about' ? Object.assign(styleObj, homeAbout) : styleObj;
   };
 
   const sidebarStyle = createSidebarStyle();
@@ -70,7 +68,7 @@ const NavBar = (props: any) => {
         </a>
       </div>
       <button id='mobile-collapse' style={
-          page === 'home'|| page ==='about' || page === 'demo' || page==='contact'
+          page === 'home'|| page ==='about' || page === 'demo'
             ? { backgroundColor: 'rgba(0,0,0,0)', overflow: 'visible', opacity: 0, display: 'none' }
             : {}
         } onClick={() => setOpen(!open)}>
@@ -85,7 +83,7 @@ const NavBar = (props: any) => {
       <div
         className='sideContent'
         style={
-          page === 'home'|| page==='about' || page === 'devtool' || page==='contact'
+          page === 'home'|| page==='about'
             ? { backgroundColor: 'rgba(0,0,0,0)', overflow: 'visible' }
             : {}
         }

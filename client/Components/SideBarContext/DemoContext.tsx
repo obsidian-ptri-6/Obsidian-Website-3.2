@@ -50,7 +50,10 @@ const DemoContext = (props: any) => {
         <div className='list-group-item'>
           <h6>Cache</h6>
           <div className='list-group'>
-            <p className={`list-group-item list-group-item-action`}>
+            <p
+              className={`list-group-item list-group-item-action 
+          `}
+            >
               Finally, we can see our destructured query and responses which are
               currently stored in a Redis cache. If you query for a specific
               property that is stored in the cache, the Obsidian algorithm will

@@ -1,10 +1,5 @@
 import { React } from '../../../deps.ts';
 
-const AboutContext = (props) => {
-  return (
-    <div id='docsTOC'>
-    </div>
-  );
-};
+const AboutContext = (props) => <div></div>;
 
 export default AboutContext;
