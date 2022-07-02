@@ -1,3 +1,5 @@
+/** @format */
+
 import { React } from '../../deps.ts';
 import SideBar from './SideBar.tsx';
 
@@ -60,7 +62,7 @@ const DevTool = (props: any) => {
           </p>
           <h2>Usage and Configuration</h2>
           <p>
-            Clone the Obsidian repository <a className='pinkA' href='https://github.com/open-source-labs/obsidian'>
+            Clone the Obsidian repository <a className='pinkATags' href='https://github.com/open-source-labs/obsidian'>
               here
             </a>, and in the Obsidian Wrapper file, on line 10, update chromeExtensionId to the value of the unique chrome extension ID for the tool you just unpacked in your extensions. This can be found at chrome://extensions/ on the card for your loaded extension.
           </p>
@@ -84,7 +86,7 @@ const DevTool = (props: any) => {
             <p>
             </p>
             <li>
-              <strong>Playground:</strong> In order to use this feature, you must plug in your server's GraphQL endpoint (ex. <a className='pinkA' href='http://localhost:3000/graphQL'>
+              <strong>Playground:</strong> In order to use this feature, you must plug in your server's GraphQL endpoint (ex. <a className='pinkATags' color='#E434AA' href='http://localhost:3000/graphQL'>
                 http://localhost:3000/graphQL
               </a>
               ) and click the submit button. You will now be able to write queries as well as mutations in order to retrieve and view your data.
@@ -100,12 +102,12 @@ const DevTool = (props: any) => {
           </p>
           <ul>
             <li>
-              <a className='pinkA' href='https://github.com/open-source-labs/obsidian'>
+              <a className='pinkATags' href='https://github.com/open-source-labs/obsidian'>
                 Obsidian
               </a>
             </li>
             <li>
-              <a className='pinkA' href='https://github.com/oslabs-beta/obsidian-demo-5.0'>
+              <a className='pinkATags' href='https://github.com/oslabs-beta/obsidian-demo-5.0'>
                 Obsidian Demo
               </a>
             </li>
