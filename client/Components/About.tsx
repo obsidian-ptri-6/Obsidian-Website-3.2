@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { React } from '../../deps.ts';
 import Team from './Team.jsx';
 import SideBar from './SideBar.tsx';

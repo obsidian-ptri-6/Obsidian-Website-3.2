@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 /** @format */
 
 import { React } from '../../deps.ts';

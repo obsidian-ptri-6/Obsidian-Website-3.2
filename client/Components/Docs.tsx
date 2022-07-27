@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 /** @format */
 
 import { React } from "../../deps.ts";
@@ -26,7 +27,7 @@ import SideBar from "./SideBar.tsx";
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      [elemName: string]: any;
+      div: any;
     }
   }
 }

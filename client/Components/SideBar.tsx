@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { React } from '../../deps.ts';
 import DocsContext from './SideBarContext/DocsContext.tsx';
 import MainContext from './SideBarContext/MainContext.tsx';

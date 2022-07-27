@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { React } from '../../deps.ts';
 import ObsidianLogo from './ObsidianLogo.tsx';
 import SideBar from './SideBar.tsx';

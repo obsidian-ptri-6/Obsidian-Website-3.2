@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { React } from '../../deps.ts';
 
 declare global {

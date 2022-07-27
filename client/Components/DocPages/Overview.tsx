@@ -1,6 +1,15 @@
+// deno-lint-ignore-file no-explicit-any
 /** @format */
 
 import { React, CodeBlock, dracula } from "../../../deps.ts";
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elemName: string]: any;
+    }
+  }
+}
 
 const Overview = (props: any) => {
   return (

@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { React } from '../../deps.ts';
 import Main from './Main.tsx';
 import Docs from './Docs.tsx';
