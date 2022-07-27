@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 /** @format */
 
 import { React } from "../../deps.ts";
@@ -26,13 +27,13 @@ import SideBar from "./SideBar.tsx";
 declare global {
   namespace JSX {
     interface IntrinsicElements {
-      [elemName: string]: any;
+      div: any;
     }
   }
 }
 
 const Docs = (props: any) => {
-  const [docsPage, setDocsPage] = (React as any).useState("QuickStart");
+  const [docsPage, setDocsPage] = (React as any).useState("Overview");
 
   let curDocsPage;
   if (docsPage === "QuickStart") curDocsPage = <QuickStart />;

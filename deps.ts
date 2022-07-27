@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import React from 'https://dev.jspm.io/react';
 import ReactDomServer from 'https://dev.jspm.io/react-dom/server';
 import ReactDom from 'https://dev.jspm.io/react-dom';

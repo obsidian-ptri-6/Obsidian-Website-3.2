@@ -1,6 +1,15 @@
+// deno-lint-ignore-file no-explicit-any
 /** @format */
 
 import { React, CodeBlock, dracula } from "../../../deps.ts";
+
+declare global {
+  namespace JSX {
+    interface IntrinsicElements {
+      [elemName: string]: any;
+    }
+  }
+}
 
 const Overview = (props: any) => {
   return (
@@ -27,7 +36,7 @@ const Overview = (props: any) => {
       <h2>The Module</h2>
       <p>
         <code className='obsidianInline'>obsidian</code> is a Deno module,
-        published at <a href='https://deno.land/x/obsidian@2.0.1'>deno.land</a>.
+        published at <a href='https://deno.land/x/obsidian@v5.0.0'>deno.land</a>.
         There are two distinct parts to{" "}
         <code className='obsidianInline'>obsidian</code>: ObsidianRouter, a
         caching GraphQL router built upon Deno's{" "}
@@ -62,7 +71,7 @@ const Overview = (props: any) => {
       <p>We've split our documentation into distinct sections.</p>
       <ul>
         <li>
-          <strong>Quick Start</strong> Provies some example repositorys and a
+          <strong>Quick Start</strong> Provides some example repositories and a
           docker-compose file if you want to spin up a server with Obsidian
           implemented in and start exploring. There is also a quick guide to
           adding Obsidans caching functionality to an exsisting graphql server.

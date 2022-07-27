@@ -5,15 +5,15 @@ const Philosophy = (props: any) => {
     <div className="docContainer">
       <h1>Philosophy</h1>
       <p>
-        In this chapter we seek to lay bare our approach to GraphQL caching,
+        In this chapter, we seek to lay bare our approach to GraphQL caching,
         providing context for our caching implementations in each part of{' '}
         <code className="obsidianInline">obsidian</code>.
       </p>
       <h2>Core Values</h2>
-      <h3>Fast</h3>
+      <h3>Speed</h3>
       <p className="mission">
         Caching with obsidian should be nearly imperceptible - a client or
-        server module should feel no slower with a caching layer
+        server module should feel no slower with a caching layer.
       </p>
       <p>
         While building <code className="obsidianInline">obsidian</code>'s
@@ -21,10 +21,10 @@ const Philosophy = (props: any) => {
         layer for your GraphQL service has to be fast and efficient. Your API
         should not take a large performance hit after incorporating a cache.
       </p>
-      <h3>Flexible</h3>
+      <h3>Flexiblity</h3>
       <p className="mission">
         Caching with obsidian should be developer friendly without sacrificing
-        performance{' '}
+        performance.{' '}
       </p>
       <p>
         <code className="obsidianInline">obsidian</code>'s flexible API is
@@ -33,13 +33,13 @@ const Philosophy = (props: any) => {
         the client side to be able to offer efficiency and expandability for the
         developer.
       </p>
-      <h3>Consistent</h3>
+      <h3>Consistency</h3>
       <p className="mission">
-        Caching with obsidian should prize consistency - discerning truth should
+        Caching with obsidian should prize stability - discerning truth should
         be automatic and transparent
       </p>
       <p>
-        Many GraphQL caching solutions give up on consistency and mutations,
+        Many GraphQL caching solutions give up on dependability and mutations,
         choosing to give the tools to the developer and letting go of the
         reigns. With <code className="obsidianInline">obsidian</code>,
         consistent truth is a priority and a responsibility, rather than an
@@ -56,7 +56,7 @@ const Philosophy = (props: any) => {
         typically constructed with server-side rendering.
       </p>
       <p>
-        We choose to view these restrictions as inspiration for innovation, and
+        We view these restrictions as inspiration for innovation, and
         we have applied that philosophy to our caching implementations. By
         adhering to pre-defined scaffolding, opportunities to improve upon
         existing methodologies readily present themselves. Whenever possible, we

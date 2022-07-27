@@ -98,7 +98,7 @@ const users = [
     lastName: 'Alfaro',
     image:
       'https://res.cloudinary.com/dyigtncwy/image/upload/v1618454676/Damon_j1ehdh.jpg',
-    info: 'As a software engineer Damon enjoys databases and experimenting with emerging back-end technologies. He spends his free time backpacking, running, and traveling in his converted school bus RV.',
+    info: 'As a software engineer, Damon enjoys databases and experimenting with emerging back-end technologies. He spends his free time backpacking, running, and traveling in his converted school bus RV.',
     linkedin: 'https://www.linkedin.com/in/damon-alfaro-28530a74/',
     github: 'https://github.com/djdalfaro',
   },
@@ -180,7 +180,7 @@ const users = [
     image:
       'https://res.cloudinary.com/dkxftbzuu/image/upload/v1600479739/Obsidian/WhatsApp_Image_2020-09-18_at_8.38.09_PM_pgshgj.jpg',
 
-    info: 'Alonso Garza is a full-stack software engineer from Austin, Texas. Alonso specializes in React, Node.js, Express, and is passionate about solving complex problems and working in teams. Outside of coding, he loves to travel around Latin America and scuba dive!',
+    info: 'Alonso is a full-stack software engineer from Austin, Texas. Alonso specializes in React, Node.js, Express, and is passionate about solving complex problems and working in teams. Outside of coding, he loves to travel around Latin America and scuba dive!',
     linkedin: 'https://www.linkedin.com/in/e-alonso-garza/',
     github: 'https://github.com/Alonsog66',
   },
@@ -210,6 +210,52 @@ const users = [
     info: 'Burak is a software engineer focused on developing full stack applications. Curious and constantly finding ways to use new ideas to solve problems and provide delight. For fun, he enjoys outdoor activities, traveling, and exploring new cuisines.',
     linkedin: 'https://www.linkedin.com/in/burakcaliskan/',
     github: 'https://github.com/CaliskanBurak',
+  },
+  {
+    firstName: 'Sigele',
+    lastName: 'Nickerson-Adams',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176543/1583992554671_oz2lpz.jpg',
+    info: 'Sigele is a software engineer focused on building modular, flexible tools for developers, and making the web more open and accessible for all users. They enjoy horror films, lifting weights, and complaining about the lack of good dim sum in Texas.',
+    linkedin: 'https://www.linkedin.com/in/sigelenickersonadams/',
+    github: '',
+  },
+  {
+    firstName: 'David',
+    lastName: 'Palmer',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176568/1547607279919_e001bx.jpg',
+    info: 'David is a software engineer interested in full stack development and backend architecture. He loves skiing, podcasts, and checking out new coffee shops near his apartment in New York City.',
+    linkedin: 'https://www.linkedin.com/in/dwp78/',
+    github: 'https://github.com/dwppalmer95',
+  },
+  {
+    firstName: 'Yuki',
+    lastName: 'Naka',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/c_thumb,w_200,g_face/v1656176613/1656085073699_gkjsrh.jpg',
+  
+    info: 'Yuki is a software engineer with an emphasis on full stack engineering and interest in application architecture. He currently choreographs/dances for music videos and performances when opportunity comes on his free time.',
+    linkedin: 'https://www.linkedin.com/in/yukinaka/',
+    github: '',
+  },
+  {
+    firstName: 'Nathan',
+    lastName: 'Crawford',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176587/1617305254527_u0euyd.jpg',
+    info: 'Nathan is a full stack software engineer based in New York City. He enjoys anything outdoors but especially fly fishing and spending time with family.',
+    linkedin: 'https://www.linkedin.com/in/nathan-crawford-6894761ab/',
+    github: 'https://github.com/crawfish39',
+  },
+  {
+    firstName: 'Robert',
+    lastName: 'Bedenbaugh',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/c_thumb,w_200,g_face/v1656191588/Resized_20210408_184749_cbm7lv.jpg',
+    info: 'Robert is a software engineer passionate about UX/UI, the joyful art of CSS, & its frameworks & libraries. When not coding, you may find him gardening, eating sushi, or rocking to RHCP.',
+    linkedin: 'https://www.linkedin.com/in/robertbedenbaugh/',
+    github: 'https://github.com/rhbedenbaugh',
   },
 ];
 

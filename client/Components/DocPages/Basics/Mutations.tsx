@@ -112,7 +112,7 @@ return (
       <br />
       <p>
         To send a delete mutation request, provide an options object with delete
-        set to true. This will let
+        set to true. This will let 
         <code className="obsidianInline">obsidian</code> know to update value in
         the cache to ‘DELETED’
       </p>
@@ -144,7 +144,7 @@ return (
       <p>
         When sending a mutation request to create a new element, provide an
         update function to let <code className="obsidianInline">obsidian</code>
-        know how to store the newly created element into the existing cache.
+         know how to store the newly created element into the existing cache.
       </p>
       <CodeBlock language="tsx" showLineNumbers={true} style={dracula}>
         {`// DeleteButton.tsx
@@ -187,7 +187,7 @@ return (
       <br />
       <h4>Recap & Next Up</h4>
       <p>
-        In this chapter we covered how to send mutations using{' '}
+        In this chapter, we covered how to send mutations using{' '}
         <code className="obsidianInline">mutate</code>. To round out the Basics
         section, we'll examine some common errors you might find when using{' '}
         <code className="obsidianInline">obsidian</code>.
