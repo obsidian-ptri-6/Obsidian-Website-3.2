@@ -3,10 +3,56 @@ import TeamMember from './TeamMember.jsx';
 
 const users = [
   {
+    firstName: 'Sigele',
+    lastName: 'Nickerson-Adams',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176543/1583992554671_oz2lpz.jpg',
+    info: 'Sigele is a software engineer focused on building modular, flexible tools for developers, and making the web more open and accessible for all users. They enjoy horror films, lifting weights, and complaining about the lack of good dim sum in Texas.',
+    linkedin: 'https://www.linkedin.com/in/sigelenickersonadams/',
+    github: '',
+  },
+  {
+    firstName: 'David',
+    lastName: 'Palmer',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176568/1547607279919_e001bx.jpg',
+    info: 'David is a software engineer interested in full stack development and backend architecture. He loves skiing, podcasts, and checking out new coffee shops near his apartment in New York City.',
+    linkedin: 'https://www.linkedin.com/in/dwp78/',
+    github: 'https://github.com/dwppalmer95',
+  },
+  {
+    firstName: 'Yuki',
+    lastName: 'Naka',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/c_thumb,w_200,g_face/v1656176613/1656085073699_gkjsrh.jpg',
+  
+    info: 'Yuki is a software engineer with an emphasis on full stack engineering and interest in application architecture. He currently choreographs/dances for music videos and performances when opportunity comes on his free time.',
+    linkedin: 'https://www.linkedin.com/in/yukinaka/',
+    github: '',
+  },
+  {
+    firstName: 'Nathan',
+    lastName: 'Crawford',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176587/1617305254527_u0euyd.jpg',
+    info: 'Nathan is a full stack software engineer based in New York City. He enjoys anything outdoors but especially fly fishing and spending time with family.',
+    linkedin: 'https://www.linkedin.com/in/nathan-crawford-6894761ab/',
+    github: 'https://github.com/crawfish39',
+  },
+  {
+    firstName: 'Robert',
+    lastName: 'Bedenbaugh',
+    image:
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/c_thumb,w_200,g_face/v1656191588/Resized_20210408_184749_cbm7lv.jpg',
+    info: 'Robert is a software engineer passionate about UX/UI, the joyful art of CSS, & its frameworks & libraries. When not coding, you may find him gardening, eating sushi, or rocking to RHCP.',
+    linkedin: 'https://www.linkedin.com/in/robertbedenbaugh/',
+    github: 'https://github.com/rhbedenbaugh',
+  },
+  {
     firstName: 'Michael',
     lastName: 'Melville',
     image:
-      'https://res.cloudinary.com/obsidian44/image/upload/v1629338933/obsidian44/IMG_6933_nzsbug.jpg',
+    'https://res.cloudinary.com/obsidian44/image/upload/v1629338933/obsidian44/IMG_6933_nzsbug.jpg',
     info: 'Michael is an engineer with a lifelong passion for creative problem-solving.  When not working behind a keyboard, he can often be found playing at the cutting board or jumping off diving boards around the world.',
     linkedin: 'https://www.linkedin.com/in/michael-j-melville/',
     github: 'https://github.com/meekle',
@@ -210,52 +256,6 @@ const users = [
     info: 'Burak is a software engineer focused on developing full stack applications. Curious and constantly finding ways to use new ideas to solve problems and provide delight. For fun, he enjoys outdoor activities, traveling, and exploring new cuisines.',
     linkedin: 'https://www.linkedin.com/in/burakcaliskan/',
     github: 'https://github.com/CaliskanBurak',
-  },
-  {
-    firstName: 'Sigele',
-    lastName: 'Nickerson-Adams',
-    image:
-    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176543/1583992554671_oz2lpz.jpg',
-    info: 'Sigele is a software engineer focused on building modular, flexible tools for developers, and making the web more open and accessible for all users. They enjoy horror films, lifting weights, and complaining about the lack of good dim sum in Texas.',
-    linkedin: 'https://www.linkedin.com/in/sigelenickersonadams/',
-    github: '',
-  },
-  {
-    firstName: 'David',
-    lastName: 'Palmer',
-    image:
-    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176568/1547607279919_e001bx.jpg',
-    info: 'David is a software engineer interested in full stack development and backend architecture. He loves skiing, podcasts, and checking out new coffee shops near his apartment in New York City.',
-    linkedin: 'https://www.linkedin.com/in/dwp78/',
-    github: 'https://github.com/dwppalmer95',
-  },
-  {
-    firstName: 'Yuki',
-    lastName: 'Naka',
-    image:
-    'https://res.cloudinary.com/rhbedenbaugh/image/upload/c_thumb,w_200,g_face/v1656176613/1656085073699_gkjsrh.jpg',
-  
-    info: 'Yuki is a software engineer with an emphasis on full stack engineering and interest in application architecture. He currently choreographs/dances for music videos and performances when opportunity comes on his free time.',
-    linkedin: 'https://www.linkedin.com/in/yukinaka/',
-    github: '',
-  },
-  {
-    firstName: 'Nathan',
-    lastName: 'Crawford',
-    image:
-    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176587/1617305254527_u0euyd.jpg',
-    info: 'Nathan is a full stack software engineer based in New York City. He enjoys anything outdoors but especially fly fishing and spending time with family.',
-    linkedin: 'https://www.linkedin.com/in/nathan-crawford-6894761ab/',
-    github: 'https://github.com/crawfish39',
-  },
-  {
-    firstName: 'Robert',
-    lastName: 'Bedenbaugh',
-    image:
-    'https://res.cloudinary.com/rhbedenbaugh/image/upload/c_thumb,w_200,g_face/v1656191588/Resized_20210408_184749_cbm7lv.jpg',
-    info: 'Robert is a software engineer passionate about UX/UI, the joyful art of CSS, & its frameworks & libraries. When not coding, you may find him gardening, eating sushi, or rocking to RHCP.',
-    linkedin: 'https://www.linkedin.com/in/robertbedenbaugh/',
-    github: 'https://github.com/rhbedenbaugh',
   },
 ];
 

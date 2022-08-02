@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { React, CodeBlock, dracula } from '../../../../deps.ts';
 
 const Client = (props: any) => {

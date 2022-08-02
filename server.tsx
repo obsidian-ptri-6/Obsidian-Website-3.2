@@ -1,3 +1,4 @@
+// deno-lint-ignore-file no-explicit-any
 import { Application, Router } from './serverDeps.ts';
 import { React, ReactDomServer } from './deps.ts';
 import App from './client/app.tsx';
