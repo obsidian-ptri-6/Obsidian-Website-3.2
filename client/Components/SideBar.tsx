@@ -22,13 +22,13 @@ declare global {
 }
 
 const NavBar = (props: any) => {
-  const { page, docsPage, setDocsPage } = props;
+  const { page, docsPage, setDocsPage, demoPage, setDemoPage } = props;
 
   let curContext;
 
   if (page === 'home') curContext = <MainContext />;
   if (page === 'about') curContext = <AboutContext/> ;
-  if (page === 'demo') curContext = <DemoContext />;
+  if (page === 'demo') curContext = <DemoContext demoPage={demoPage} setDemoPage={setDemoPage} />;
   if (page === 'docs') curContext = <DocsContext docsPage={docsPage} setDocsPage={setDocsPage} />;
   if (page === 'devtool') curContext = <DevToolContext />;
   if (page === 'contact') curContext = <ContactContext />;
@@ -49,7 +49,6 @@ const NavBar = (props: any) => {
   return (
     <div
       className='sidebar'
-      // style={page === 'home'|| page==='about' ? { backgroundColor: 'rgba(0,0,0,0)' } : {}}
       style={sidebarStyle}
     >
       <div className='codeLinks'>
@@ -71,7 +70,7 @@ const NavBar = (props: any) => {
         </a>
       </div>
       <button id='mobile-collapse' style={
-          page === 'home'|| page ==='about' || page === 'demo' || page==='contact'
+          page === 'home'|| page ==='about' || page==='contact'
             ? { backgroundColor: 'rgba(0,0,0,0)', overflow: 'visible', opacity: 0, display: 'none' }
             : {}
         } onClick={() => setOpen(!open)}>

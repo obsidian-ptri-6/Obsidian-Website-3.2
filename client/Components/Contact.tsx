@@ -2,10 +2,6 @@
 import SideBar from './SideBar.tsx';
 import { React } from '../../deps.ts';
 import { SMTPClient } from "https://deno.land/x/denomailer@1.2.0/mod.ts";
-// import { config } from "https://deno.land/x/dotenv@v3.2.0/mod.ts";
-import { InboxControllerApi } from 'https://raw.githubusercontent.com/mailslurp/mailslurp-client-deno/11.7.9/index.ts'
-// import "https://cdn.jsdelivr.net/npm/mailslurp-client@15.13.1/dist/index.min.js"
-// import { MailSlurp } from "https://cdn.jsdelivr.net/npm/mailslurp-client@15.13.1/dist/index.min.js";
 
 declare global {
   namespace JSX {
@@ -17,73 +13,82 @@ declare global {
   }
 }
 
-
+//create Contact functional component
 const Contact = (props: any) => {
 
+  //set state
   const [name, setName] = (React as any).useState('')
   const [email, setEmail] = (React as any).useState('')
   const [text, setText] = (React as any).useState('')
 
-  const onSubmit = (e: { preventDefault: () => void; }) => {
+  //
+  const onSubmit = async (e: { preventDefault: () => void; }) => {
     e.preventDefault();
+    console.log('submitted')
 
-    // const mailslurp = new MailSlurp({ apiKey: 'f3ae89899940d574a7ebce8432282408a52ab1ec939f302ee187e2cf06423f82' });
+    //establish connection
+    try {
 
-    // const inbox = await mailslurp.inboxController.createInbox({});
-    // expect(inbox.emailAddress).toContain('@mailslurp');
+    
+      const client = new SMTPClient({
+        connection: {
+          hostname: "smtp.gmail.com",
+          port: 465,
+          tls: true,
+          auth: {
+            username: 'robedenbaughjr@gmail.com',
+            password: 'myrd', // FIXME: Put this in a .env
+          },
+        },
+      });
 
+      //send email
+      await client.send({
+        to: 'robertbedenbaughjr@gmail.com',
+        from: 'robertbedenbaughjr@gmail.com',
+        subject: "Obsidian 6.0 input",
+        content: "yata yata yata",
+        // html: "<p>...</p>",
+      });
 
-    // const { SEND_EMAIL, PWD, RECV_EMAIL } = Deno.env.toObject();
-
-    // const client = new SMTPClient({
-    //   connection: {
-    //     hostname: "mx.mailslurp.com",
-    //     port: 2525,
-    //     tls: true,
-    //     auth: {
-    //       username: 'W6apJU4plJ5CJf8VMTMuuszNUJ7E7qpS',//SEND_EMAIL,
-    //       password: 'n84BCcxew6IGx0OqaaKUjQAkHp7rSYxV',//PWD,
-    //     },
-    //   },
-    // });
-
-    // await client.send({
-    //   from: SEND_EMAIL,//'robertbedenbaughjr@gmail.com',
-    //   to: RECV_EMAIL,//'robertbedenbaughjr@gmail.com',
-    //   subject: "Obsidian 6.0 input",
-    //   content: "yata yata yata",
-    //   // html: "<p>...</p>",
-    // });
-
-    // await client.close();
+      //close connection
+      await client.close();
+    } catch (err) {
+      console.log(err);
+    }
   }
 
+  //alert acknowledging user input
   function myFunc() {
     alert("Thanks for your input!!!");
   }
 
+  //rendered component features
   return (
     <>
       <form >
-        <input id="name" name="name" type="text" className="feedback-input" placeholder="Name"
-          value={name}
-          onChange={(e: { target: { value: string; }; }) => setName(e.target.value)}
+        <input id="name" 
+        name="name" type="text" className="feedback-input" 
+        placeholder="Name" value={name} 
+        onChange={(e: { target: { value: string; }; }) => setName(e.target.value)}
         />
-        <input id="email" name="email" type="text" className="feedback-input" placeholder="Email"
-          value={email}
-          onChange={(e: { target: { value: string; }; }) => setEmail(e.target.value)}
+        <input id="email" name="email" type="text" className="feedback-input" 
+        placeholder="Email" value={email} 
+        onChange={(e: { target: { value: string; }; }) => setEmail(e.target.value)}
         />
-        <textarea id="message" name="text" className="feedback-input" placeholder="Comment"
-          value={text}
-          onChange={(e: { target: { value: string; }; }) => setText(e.target.value)}
+        <textarea id="message" name="text" className="feedback-input" 
+        placeholder="Comment" value={text} 
+        onChange={(e: { target: { value: string; }; }) => setText(e.target.value)}
         />
-        <input onClick={myFunc} type="submit" value="SUBMIT" onSubmit={onSubmit}
-        />
+        {/* Removed on click */}
+        <input type="submit" value="SUBMIT" onSubmit={(e: any) => {
+          e.preventDefault();
+          console.log('clicked submit');
+        }} /> 
       </form>
       <SideBar page={props.page} />
     </>
   );
 }
-
 
 export default Contact;

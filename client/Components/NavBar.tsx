@@ -18,27 +18,8 @@ declare global {
 const NavBar = (props: any) => {
   const { setPage } = props;
 
-  // (React as any).useEffect(() => {
-  //   let touchEvent = 'ontouchstart' in window ? 'touchstart' : 'click';
-
-  //   window.addEventListener(touchEvent, (e:any) => {
-  //     console.log(e.target)
-  //     console.log('the id???',e.target.id)
-  //     if (e.target.id === 'ontouchie') {
-  //       console.log('found ya!')
-  //       setPage('about');
-  //     }
-  //   })
-  // }, []);
-
   return (
     <div className='navBar'>
-      {/* <a href="jsx:setPage('docs');">DOCS LETS GO jsx</a> */}
-      {/* <a href={() => setPage('docs')}>normal react</a> */}
-      {/* <div id="ontouchie" style={{width: '60px', height: '60px', backgroundColor: 'white', cursor: 'pointer'}}>Touch me</div> */}
-      {/* <a href="javascript:setPage('docs');">string func</a>
-      <a href="#" onClick={(e:any) => {e.preventDefault(); setPage('about');}}>onclick</a>
-      <a href="#" onTouchEnd={(e:any) => {e.preventDefault(); setPage('about');}}>touchend</a> */}
       <button
         className='navBtn'
         onClick={() => {
@@ -179,7 +160,6 @@ const NavBar = (props: any) => {
           viewBox='0 0 16 16'
           className='bi bi-person-lines-fill'
           fill='#EBEBEC'
-          // transform='rotate(180)'
           xmlns='http://www.w3.org/2000/svg'>
           <path fillRule='evenodd' d="M 14.527344 3.632812 L 8.515625 9.644531 C 8.242188 9.917969 7.765625 9.917969 7.488281 9.644531 L 1.480469 3.632812 Z M 0.847656 3.882812 L 4.886719 7.921875 L 0.847656 11.960938 Z M 1.34375 12.34375 L 5.328125 8.359375 L 7.050781 10.082031 C 7.304688 10.335938 7.644531 10.476562 8.003906 10.476562 C 8.363281 10.476562 8.703125 10.335938 8.957031 10.082031 L 10.679688 8.359375 L 14.664062 12.34375 Z M 15.160156 11.960938 L 11.117188 7.921875 L 15.160156 3.878906 Z M 15.160156 11.960938 " />
         </svg>

@@ -15,7 +15,7 @@ const users = [
     firstName: 'David',
     lastName: 'Palmer',
     image:
-    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1656176568/1547607279919_e001bx.jpg',
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1659488057/123456709876543_luymhn.jpg',
     info: 'David is a software engineer interested in full stack development and backend architecture. He loves skiing, podcasts, and checking out new coffee shops near his apartment in New York City.',
     linkedin: 'https://www.linkedin.com/in/dwp78/',
     github: 'https://github.com/dwppalmer95',
@@ -43,7 +43,7 @@ const users = [
     firstName: 'Robert',
     lastName: 'Bedenbaugh',
     image:
-    'https://res.cloudinary.com/rhbedenbaugh/image/upload/c_thumb,w_200,g_face/v1656191588/Resized_20210408_184749_cbm7lv.jpg',
+    'https://res.cloudinary.com/rhbedenbaugh/image/upload/v1659487876/1659294892967_uvrk8x.jpg',
     info: 'Robert is a software engineer passionate about UX/UI, the joyful art of CSS, & its frameworks & libraries. When not coding, you may find him gardening, eating sushi, or rocking to RHCP.',
     linkedin: 'https://www.linkedin.com/in/robertbedenbaugh/',
     github: 'https://github.com/rhbedenbaugh',

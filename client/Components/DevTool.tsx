@@ -8,6 +8,11 @@ declare global {
   namespace JSX {
     interface IntrinsicElements {
       div: any;
+      h1: any;
+      ul: any;
+      li: any;
+      h2: any;
+      strong: any;
     }
   }
 }
@@ -71,7 +76,7 @@ const DevTool = (props: any) => {
             There is no further configuration necessary. As long as your application is using Obsidian Wrapper (imported as a path to the local file with the updated chrome extension), the devtool will be able to retrieve cache data and query metrics on actions initiated in the app.
           </p>
           <p>
-            <strong>Usage Note:</strong> Use of this developer tool requires Obsidian version 5.0 or greater.
+            <strong>Usage Note:</strong> Use of this developer tool requires Obsidian version 6.0 or greater.
           </p>
           <ul>
             <li>
